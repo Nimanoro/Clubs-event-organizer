@@ -2,7 +2,9 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = function(app) {
   app.use(
-    createProxyMiddleware('/sayHi', { target: 'http://localhost:4000', changeOrigin: true }),
+    createProxyMiddleware('/homePage', { target: 'http://localhost:4000', changeOrigin: true }),
+    createProxyMiddleware('/loginPage', { target: 'http://localhost:4000', changeOrigin: true }),
+    createProxyMiddleware('/signupPage', { target: 'http://localhost:4000', changeOrigin: true })
 
   );
 };
