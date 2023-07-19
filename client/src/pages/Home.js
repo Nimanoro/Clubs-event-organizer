@@ -14,7 +14,7 @@ function Home() {
 
   return (
     <div>
-       {data ? <h1>{data.message}</h1> : 'Loading...'}
+       {data ? <h1 className="text-3xl font-bold">{data.message}</h1> : 'Loading...'}
     </div>
   )
 }
