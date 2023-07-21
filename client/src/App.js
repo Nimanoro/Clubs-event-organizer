@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Login from './pages/login'
 import Signup from './pages/signup'
 import Header from './components/Header'
+import Avatar from './components/Avatardropdown';
 
 function App() {
   const [data, setData] = useState('')
@@ -26,6 +27,7 @@ function App() {
 
     return (
       <div>
+        
         <Header />
         <BrowserRouter>
           <Routes>
