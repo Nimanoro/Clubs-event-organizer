@@ -35,7 +35,7 @@ export default function Header() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="/home" className="flex items-center">
           Home
         </a>
       </Typography>
@@ -69,10 +69,6 @@ export default function Header() {
           Profile
         </a>
       </Typography>
-
-      <div> <Avatar /> </div>
-      
-          
     </ul>
   );
  
