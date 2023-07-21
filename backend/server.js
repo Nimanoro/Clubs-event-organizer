@@ -1,5 +1,8 @@
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+
 
 
 
@@ -20,6 +23,16 @@ app.get("/loginPage", (req, res) => {
 
 app.get("/signupPage", (req, res) => {
     res.json({"message":"signup from server"});
+});
+
+app.post("/doLogin", (req, res) => {
+    try {
+        const {email, password} = req.body;
+        console.log(email, password);
+    } catch (error) {
+        console.log(error);
+    }
+    
 });
 
  
