@@ -45,7 +45,7 @@ export default function Header() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="/clubs" className="flex items-center">
           clubs
         </a>
       </Typography>

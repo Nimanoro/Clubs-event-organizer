@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Login from './pages/login'
 import Signup from './pages/signup'
 import Header from './components/Header'
+import Clubs from './pages/clubs'
+
 import Avatar from './components/Avatardropdown';
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
             <Route path= "/Home" element={<Home />} />
             <Route path= "/Login" element={<Login />} />
             <Route path= "/Signup" element={<Signup />} />
+            <Route path= "/clubs" element={<Clubs />} />
   
           </Routes>
         </BrowserRouter>
