@@ -21,6 +21,7 @@ app.get("/loginPage", (req, res) => {
 app.get("/signupPage", (req, res) => {
     res.json({"message":"signup from server"});
 });
+
  
 const port = 4000 
 app.listen(port, () => {
