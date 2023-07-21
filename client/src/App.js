@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-rou
 import Home from './pages/Home'
 import Login from './pages/login'
 import Signup from './pages/signup'
-import Header from './components/Header'
+import Header from './components/header'
+import Avatar from './components/Avatardropdown';
+import Clubs from './pages/clubs';
 
 function App() {
   const [data, setData] = useState('')
@@ -34,6 +36,7 @@ function App() {
             <Route path= "/Home" element={<Home />} />
             <Route path= "/Login" element={<Login />} />
             <Route path= "/Signup" element={<Signup />} />
+            <Route path= "/clubs" element={<Clubs />} />
   
           </Routes>
         </BrowserRouter>
