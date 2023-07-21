@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-rou
 import Home from './pages/Home'
 import Login from './pages/login'
 import Signup from './pages/signup'
-import Header from './components/Header.js'
+import Header from './components/Header'
 
 function App() {
   const [data, setData] = useState('')
