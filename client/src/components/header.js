@@ -1,4 +1,5 @@
 import React from "react";
+import avatar from './Avatardropdown' 
 import {
   Navbar,
   MobileNav,
@@ -7,6 +8,7 @@ import {
   IconButton,
   Card,
 } from "@material-tailwind/react";
+import Avatar from "./Avatardropdown";
  
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -67,12 +69,16 @@ export default function Header() {
           Profile
         </a>
       </Typography>
+
+      <div> <Avatar /> </div>
+      
+          
     </ul>
   );
  
   return (
     <>
-      <Navbar className="sticky top bg-yellow-500 z-10  h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className="sticky top bg-red-500 z-10  h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
