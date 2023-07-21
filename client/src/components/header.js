@@ -21,7 +21,8 @@ export default function Header() {
   }, []);
  
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul 
+    className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
@@ -74,7 +75,8 @@ export default function Header() {
  
   return (
     <>
-      <Navbar className="sticky top bg-red-500 z-10  h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar style={{ background: 'linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)' }}
+      className="sticky top  z-10  h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
