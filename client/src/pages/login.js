@@ -36,8 +36,8 @@ function Login() {
   
 
   return (
-    <section className="gradient-form h-full  dark:bg-neutral-700 items-center">
-      <div className="container h-full p-10 flex justify-center items-center flex-auto object-center">
+    <section className="gradient-form h-full w-full  dark:bg-neutral-700 items-center">
+      <div className="container h-full p-10 flex justify-center items-center flex-auto object-center xl:ml-20 xl:">
         <div
           className="g-6 flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200">
           <div className="w-full">
